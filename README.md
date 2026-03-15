@@ -11,7 +11,7 @@ Currently, this resource is available only in **English (EN)**. You can easily t
 * **📜 Advanced Loan System:** 
   * Configure max active loans and max debt limits.
   * Time-based loans with due dates.
-* **⚖️ Debt Collection (Exekuce):** If a player fails to pay their loan on time, the system applies interest penalties and completely blocks them from withdrawing cash or taking new loans until the debt is paid.
+* **⚖️ Debt Collection:** If a player fails to pay their loan on time, the system applies interest penalties and completely blocks them from withdrawing cash or taking new loans until the debt is paid.
 * **🛑 Anti-Spam Protection:** Built-in cooldowns prevent players from spamming the UI and exploiting the database.
 * **💥 Dynamic Stamp Feedback:** Action results (APPROVED / DENIED) are visibly stamped onto the UI page with custom sound effects and detailed error messages.
 * **🪙 Gold & Moneyclips:** Sell gold directly to the bank, and create usable physical bank checks (`money_clip` & `blood_money_clip`).
@@ -76,7 +76,7 @@ This resource is provided **"as-is"** completely for free.
 **I DO NOT offer any support, troubleshooting, or help with installation.** If you encounter errors, please make sure you have installed all dependencies correctly and read this README. Feel free to fork the repository and make your own changes!
 
 ## 📸 Preview
-
+https://r2.fivemanage.com/Aea0VpArCwo9C2f1I5Lnd/image.png
 
 ## 👨‍💻 Author
 Reworked and improved by **Ladonna**.
