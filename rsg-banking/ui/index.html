@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Rye&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div id="ledger-container">
+
+        <div class="leather-cover">
+
+            <div class="pages-container">
+                
+                <!-- Left Page -->
+                <div class="page left-page">
+                    <div class="header">
+                        <h1 id="player-name">Bank Customer</h1>
+                        <h2 id="exekuce-warn" style="display:none;">⚠️ ACCOUNT UNDER DEBT COLLECTION ⚠️</h2>
+                    </div>
+                    
+                    <div class="balances">
+                        <div class="bal-item">
+                            <span>Current Balance:</span>
+                            <span id="bal-bank" class="money">$0.00</span>
+                        </div>
+                        <div class="bal-item">
+                            <span>Savings:</span>
+                            <span id="bal-savings" class="money">$0.00</span>
+                        </div>
+                        <div class="bal-item">
+                            <span>Cash on Hand:</span>
+                            <span id="bal-cash" class="money">$0.00</span>
+                        </div>
+                        <div class="bal-item debt">
+                            <span>Outstanding Bank Debt:</span>
+                            <span id="bal-loan" class="money">$0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="history-section">
+                        <h3>Transaction History</h3>
+                        <ul id="transaction-log"></ul>
+                    </div>
+                </div>
+
+                <!-- Right Page -->
+                <div class="page right-page">
+                    <div class="actions-wrapper">
+                        <h3>Submit Request to Clerk</h3>
+                        
+                        <div class="input-group">
+                            <label>Amount / Quantity ($ or pcs):</label>
+                            <input type="number" id="trans-amount" placeholder="0">
+                        </div>
+
+                        <div class="btn-grid">
+                            <button data-type="deposit">Deposit Cash</button>
+                            <button data-type="withdraw">Withdraw Cash</button>
+                            <button data-type="savings_deposit">Transfer to Savings</button>
+                            <button data-type="loan">Request Bank Loan</button>
+                            <button data-type="loan_payback">Repay Loan from Account</button>
+                            <button data-type="sell_gold">Sell Gold Bars (Enter pcs)</button>
+                            <button data-type="create_moneyclip">Issue Bank Check (Moneyclip)</button>
+                        </div>
+
+                        <div class="footer-btns">
+                            <button id="btn-safedeposit" class="side-btn">Open Safe Deposit Box</button>
+                            <button id="btn-close" class="close-btn">Close Ledger</button>
+                        </div>
+                    </div>
+                    
+                    <div id="stamp-container">
+                        <div id="stamp-title"></div>
+                        <div id="stamp-subtext"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <audio id="snd-write" src="sounds/write.mp3"></audio>
+    <audio id="snd-coins" src="sounds/coins.mp3"></audio>
+    <audio id="snd-stamp" src="sounds/stamp.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
