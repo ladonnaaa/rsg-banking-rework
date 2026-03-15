@@ -16,7 +16,6 @@ body {
     height: 700px;
 }
 
-/* Kožený obal knihy */
 .leather-cover {
     width: 100%;
     height: 100%;
@@ -28,7 +27,6 @@ body {
     display: flex;
 }
 
-/* Blok samotných stránek */
 .pages-container {
     display: flex;
     width: 100%;
@@ -44,7 +42,6 @@ body {
     overflow: hidden;
 }
 
-/* Hřbet knihy (stín uprostřed) */
 .pages-container::before {
     content: '';
     position: absolute;
