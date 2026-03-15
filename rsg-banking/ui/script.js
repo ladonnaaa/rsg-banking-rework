@@ -6,7 +6,7 @@ const formatMoney = (amount) => {
     return val.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 };
 
-// Ochrana audia proti chybějícím souborům
+
 function playSoundSafely(elementId, volume = 0.5) {
     let audio = document.getElementById(elementId);
     if(audio) {
