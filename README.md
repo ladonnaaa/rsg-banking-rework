@@ -75,8 +75,6 @@ All major settings like loan limits, penalties, withdrawal fees, and Discord web
 This resource is provided **"as-is"** completely for free. 
 **I DO NOT offer any support, troubleshooting, or help with installation.** If you encounter errors, please make sure you have installed all dependencies correctly and read this README. Feel free to fork the repository and make your own changes!
 
-## 📸 Preview
-https://r2.fivemanage.com/Aea0VpArCwo9C2f1I5Lnd/image.png
 
 ## 👨‍💻 Author
 Reworked and improved by **Ladonna**.
